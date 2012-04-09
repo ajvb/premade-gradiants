@@ -1,0 +1,56 @@
+// Premade Gradiants
+// Thank you http://www.colorzilla.com/gradient-editor/
+
+@import "colors.less";
+
+// Vertical colorOne on Top, colorTwo on bottom
+.verticalone{
+background: @backupColorOne;
+background: -moz-linear-gradient(top,  @colorOne 0%, @colorTwo 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@colorOne), color-stop(100%,@colorTwo));
+background: -webkit-linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
+background: -o-linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
+background: -ms-linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
+background: linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorOne, endColorstr=@hexcolorTwo,GradientType=0 );
+background-repeat: no-repeat;
+}
+
+// Vertical colorTwo on Top, colorOne on bottom
+.verticaltwo{
+background: @backupColorTwo;
+background: -moz-linear-gradient(top,  @colorTwo 0%, @colorOne 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@colorTwo), color-stop(100%,@colorOne));
+background: -webkit-linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
+background: -o-linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
+background: -ms-linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
+background: linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorOne, endColorstr=@hexcolorTwo,GradientType=0 );
+background-repeat: no-repeat;
+}
+
+// Horizontal Color One on left, Color Two on right
+.horizontalone{
+background: @backupColorOne;
+background: -moz-linear-gradient(left,  @colorOne 0%, @colorTwo 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,@colorOne), color-stop(100%,@colorTwo));
+background: -webkit-linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
+background: -o-linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
+background: -ms-linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
+background: linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorOne, endColorstr=@hexcolorTwo,GradientType=1 );
+background-repeat: no-repeat;
+}
+
+//
+.horizontaltwo{
+background: @backupColorTwo;
+background: -moz-linear-gradient(left,  @colorTwo 0%, @colorOne 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,@colorTwo), color-stop(100%,@colorOne));
+background: -webkit-linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
+background: -o-linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
+background: -ms-linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
+background: linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorTwo, endColorstr=@hexcolorOne,GradientType=1 );
+background-repeat: no-repeat;
+}
