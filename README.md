@@ -1,5 +1,4 @@
 ## Premade Gradiants using Less
-More premades coming soon.
 
     * If needed, install lessc
     * Go to colors.less and input your color options.
