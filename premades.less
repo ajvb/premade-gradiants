@@ -1,56 +1,106 @@
 // Premade Gradiants
-// Thank you http://www.colorzilla.com/gradient-editor/
+// Go to http://www.colorzilla.com/gradient-editor/ for more customized options. It is a great site.
 
 @import "colors.less";
 
 // Vertical colorOne on Top, colorTwo on bottom
 .verticalone{
 background: @backupColorOne;
-background: -moz-linear-gradient(top,  @colorOne 0%, @colorTwo 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@colorOne), color-stop(100%,@colorTwo));
-background: -webkit-linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
-background: -o-linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
-background: -ms-linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
-background: linear-gradient(top,  @colorOne 0%,@colorTwo 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorOne, endColorstr=@hexcolorTwo,GradientType=0 );
-background-repeat: no-repeat;
+background: -moz-linear-gradient(top,  @colorOne 0%, @colorTwo 90%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@colorOne), color-stop(90%,@colorTwo));
+background: -webkit-linear-gradient(top,  @colorOne 0%,@colorTwo 90%);
+background: -o-linear-gradient(top,  @colorOne 0%,@colorTwo 90%);
+background: -ms-linear-gradient(top,  @colorOne 0%,@colorTwo 90%);
+background: linear-gradient(top,  @colorOne 0%,@colorTwo 90%);
 }
 
 // Vertical colorTwo on Top, colorOne on bottom
 .verticaltwo{
 background: @backupColorTwo;
-background: -moz-linear-gradient(top,  @colorTwo 0%, @colorOne 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@colorTwo), color-stop(100%,@colorOne));
-background: -webkit-linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
-background: -o-linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
-background: -ms-linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
-background: linear-gradient(top,  @colorTwo 0%,@colorOne 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorOne, endColorstr=@hexcolorTwo,GradientType=0 );
-background-repeat: no-repeat;
+background: -moz-linear-gradient(top,  @colorTwo 0%, @colorOne 90%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@colorTwo), color-stop(90%,@colorOne));
+background: -webkit-linear-gradient(top,  @colorTwo 0%,@colorOne 90%);
+background: -o-linear-gradient(top,  @colorTwo 0%,@colorOne 90%);
+background: -ms-linear-gradient(top,  @colorTwo 0%,@colorOne 90%);
+background: linear-gradient(top,  @colorTwo 0%,@colorOne 90%);
 }
 
 // Horizontal Color One on left, Color Two on right
 .horizontalone{
 background: @backupColorOne;
-background: -moz-linear-gradient(left,  @colorOne 0%, @colorTwo 100%);
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,@colorOne), color-stop(100%,@colorTwo));
-background: -webkit-linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
-background: -o-linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
-background: -ms-linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
-background: linear-gradient(left,  @colorOne 0%,@colorTwo 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorOne, endColorstr=@hexcolorTwo,GradientType=1 );
-background-repeat: no-repeat;
+background: -moz-linear-gradient(left,  @colorOne 0%, @colorTwo 80%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,@colorOne), color-stop(80%,@colorTwo));
+background: -webkit-linear-gradient(left,  @colorOne 0%,@colorTwo 80%);
+background: -o-linear-gradient(left,  @colorOne 0%,@colorTwo 80%);
+background: -ms-linear-gradient(left,  @colorOne 0%,@colorTwo 80%);
+background: linear-gradient(left,  @colorOne 0%,@colorTwo 80%);
 }
 
 //
 .horizontaltwo{
 background: @backupColorTwo;
-background: -moz-linear-gradient(left,  @colorTwo 0%, @colorOne 100%);
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,@colorTwo), color-stop(100%,@colorOne));
-background: -webkit-linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
-background: -o-linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
-background: -ms-linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
-background: linear-gradient(left,  @colorTwo 0%,@colorOne 100%);
+background: -moz-linear-gradient(left,  @colorTwo 0%, @colorOne 80%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,@colorTwo), color-stop(80%,@colorOne));
+background: -webkit-linear-gradient(left,  @colorTwo 0%,@colorOne 80%);
+background: -o-linear-gradient(left,  @colorTwo 0%,@colorOne 80%);
+background: -ms-linear-gradient(left,  @colorTwo 0%,@colorOne 80%);
+background: linear-gradient(left,  @colorTwo 0%,@colorOne 80%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorTwo, endColorstr=@hexcolorOne,GradientType=1 );
 background-repeat: no-repeat;
+}
+
+//
+.radiusone{
+background: @backupColorOne;
+background: -moz-radial-gradient(center, ellipse cover, @colorOne 0%, @colorTwo 85%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@colorOne), color-stop(85%,@colorTwo)); 
+background: -webkit-radial-gradient(center, ellipse cover, @colorOne 0%,@colorTwo 85%);
+background: -o-radial-gradient(center, ellipse cover, @colorOne 0%,@colorTwo 85%); 
+background: -ms-radial-gradient(center, ellipse cover, @colorOne 0%,@colorTwo 85%);
+background: radial-gradient(center, ellipse cover, @colorOne 0%,@colorTwo 85%);
+
+}
+.radiustwo{
+background: @backupColorTwo;
+background: -moz-radial-gradient(center, ellipse cover, @colorTwo 0%, @colorOne 85%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@colorTwo), color-stop(85%,@colorOne));
+background: -webkit-radial-gradient(center, ellipse cover, @colorTwo 0%,@colorOne 85%);
+background: -o-radial-gradient(center, ellipse cover, @colorTwo 0%,@colorOne 85%);
+background: -ms-radial-gradient(center, ellipse cover, @colorTwo 0%,@colorOne 85%);
+background: radial-gradient(center, ellipse cover, @colorTwo 0%,@colorOne 85%);
+}
+
+//Vertical with a 'stripe' through the middle.
+.middlestripeone{
+background: @backupColorOne;
+background: -moz-linear-gradient(top, @colorOne 1%, @colorTwo 40%, @colorTwo 60%, @colorOne 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,@colorOne), color-stop(40%,@colorTwo), color-stop(60%,@colorTwo), color-stop(100%,@colorOne));
+background: -webkit-linear-gradient(top, @colorOne 1%,@colorTwo 40%,@colorTwo 60%,@colorOne 100%);
+background: -o-linear-gradient(top, @colorOne 1%,@colorTwo 40%,@colorTwo 60%,@colorOne 100%);
+background: -ms-linear-gradient(top, @colorOne 1%,@colorTwo 40%,@colorTwo 60%,@colorOne 100%);
+background: linear-gradient(top, @colorOne 1%,@colorTwo 40%,@colorTwo 60%,@colorOne 100%);
+}
+.middlestripetwo{
+background: @backupColorTwo;
+background: -moz-linear-gradient(top, @colorTwo 1%, @colorOne 40%, @colorOne 60%, @colorTwo 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,@colorTwo), color-stop(40%,@colorOne), color-stop(60%,@colorOne), color-stop(100%,@colorTwo));
+background: -webkit-linear-gradient(top, @colorTwo 1%,@colorOne 40%,@colorOne 60%,@colorTwo 100%);
+background: -o-linear-gradient(top, @colorTwo 1%,@colorOne 40%,@colorOne 60%,@colorTwo 100%);
+background: -ms-linear-gradient(top, @colorTwo 1%,@colorOne 40%,@colorOne 60%,@colorTwo 100%);
+background: linear-gradient(top, @colorTwo 1%,@colorOne 40%,@colorOne 60%,@colorTwo 100%);
+}
+
+
+
+
+.recommended {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+//These are two options of the fix for IE6-9
+.iefixone {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorOne, endColorstr=@hexcolorTwo,GradientType=1 );
+}
+.iefixtwo {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@hexcolorTwo, endColorstr=@hexcolorOne,GradientType=1 );
 }
